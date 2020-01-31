@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import Layout from './components/Layout/Layout';
+import FitBuilder from './containers/FitBuilder/FitBuilder';
+
 
 
 class App extends Component {
@@ -8,7 +10,7 @@ class App extends Component {
     return (
       <div >
         <Layout>
-        <p>Hello there</p>
+        <FitBuilder/>
         </Layout>
       </div>
     );
